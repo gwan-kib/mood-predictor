@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414;
+
+    font-family: Arial, sans-serif;
+    color: #fec345;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 5rem;          
+
+    margin: 0;
+    margin-top: 2.5rem; 
+    margin-bottom: 2.5rem;       
+}
+
+#userInterface {
+    text-align: center;
+
+
+    align-items: center;
+}
+
+h2 {
+    font-size: 2.5rem;        
+    margin: 0.9375rem;     
+}
+
+input { 
+    padding: 0.625rem;      
+    margin: 0;
+    margin-top: 0.625rem;     
+    margin-bottom: 1.3rem;  
+
+    width: 70%;
+    font-size: 1rem;
+}
+
+button {
+    width: 50%;
+    height: 2rem;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    margin: 0;
+    margin-top: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 20rem;
+    height: auto;
+
+    padding: 0;
+    padding-right: 3rem;
+}
