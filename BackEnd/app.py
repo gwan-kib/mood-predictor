@@ -1,3 +1,8 @@
+# To run backend server, type the following into your TERMINAL:
+# cd \Users\gwant\OneDrive\Documents\VSCode\MoodPredictor\BackEnd
+# - then type -
+# python app.py
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS 
 
