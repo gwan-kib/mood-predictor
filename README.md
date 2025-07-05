@@ -32,6 +32,10 @@ mood-predictor/
 ```
 (type text following '-' into your terminal)
 
+Make sure you have Python installed on your system first:
+ - python --version
+(if you do not, you'll have to download it from their website before proceeding) 
+
 Ensure you have Flask and Flask-CORS installed:
 - pip install flask flask-cors
 
