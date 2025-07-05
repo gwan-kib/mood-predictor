@@ -4,13 +4,14 @@
 ```
 + text box for the user to type in their current mood
 + button to use back-end Python to try and predict users' mood based on their text input
++ output: "You seem..."
 + logo
 ```
 
 --------
 # BUILT WITH
 ```
-Python, HTML5, CSS3, JavaScript - all inside VSCode
+Python, Flask, HTML5, CSS3, JavaScript - all inside VSCode, Flask-CORS, Fetch API
 ```
 
 ----------
@@ -28,6 +29,23 @@ mood-predictor/
 
 ----------
 # HOW TO RUN LOCALLY
+```
+(type text following '-' into your terminal)
+
+Ensure you have Flask and Flask-CORS installed:
+- pip install flask flask-cors
+
+Navigate to:
+- cd path/to/mood-predictor/BackEnd
+
+Run the Flask server:
+ - python app.py
+
+Should then see something like, '* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)', meaning the back-end is ready
+
+Then open index.html and the website should run as described earlier
+
+```
 
 ------------------
 # AUTHOR
